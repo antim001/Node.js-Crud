@@ -29,7 +29,7 @@ const User = () => {
     <div className="container mx-auto mt-10">
       <h1 className='text-center text-2xl font-semibold mb-4'>User Info</h1>
       <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
-        <Link to='/'>
+        <Link to='/adduser'>
           <h1 className='text-4xl ml-4'><TiUserAdd /></h1>
         </Link>
         <table className="min-w-full divide-y divide-gray-200">
